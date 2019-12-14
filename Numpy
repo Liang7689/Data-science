@@ -1,0 +1,5 @@
+1. Import data
+  1) loadtxt(filename, dtype=?, delimieter=?, skiprows=?, usecols=?). loadtxt() can only load data files with the same data type.
+  2) data = genfromtxt(filename, delimeter=?, names=True, dtype=None). genfromtxt() can handle mixed data type file.
+    i. columns can be accessed using data[i], i is the ith column or data['column_name'].
+  3) data = recfromcsv(filename, delimeter=?, names=True, dtype=None) is similar to genfromtxt().
